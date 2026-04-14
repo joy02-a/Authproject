@@ -19,7 +19,7 @@ const PORT=process.env.PORT;
 app.use(cors({
     origin: [
     "http://localhost:5173",
-    "https://authproject321.netlify.app/"
+    "https://authproject3211.netlify.app/"
   ],
   credentials: true
 }));
