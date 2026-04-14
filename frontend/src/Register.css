@@ -1,0 +1,54 @@
+.Rcontainer {
+    border: 2px solid blueviolet;
+    height: 100vh;
+    width: 100vw;
+    background-color: green;
+    color: white;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+form {
+    height: 70%;
+    width: 50%;
+    border: 3px solid red;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgb(101, 71, 128);
+}
+
+.Rcontainer .section {
+    display: flex;
+    flex-direction: column;
+}
+
+.Rcontainer input {
+    height: 2rem;
+    background-color: aquamarine;
+    color: black;
+
+    font-weight: bold;
+    font-size: large;
+    font-style: italic;
+    padding-left: 3px;
+}
+
+.Rcontainer {
+    label {
+        font-size: larger;
+        font: bolder;
+    }
+
+    button {
+        font-size: x-large;
+        cursor: pointer;
+    }
+}
+
+

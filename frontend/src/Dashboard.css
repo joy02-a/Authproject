@@ -1,0 +1,43 @@
+
+* {
+    margin: 0;
+    padding: 0;
+
+    box-sizing: border-box;
+}
+
+.dcontainer {
+    border: 10px solid red;
+    height: 100vh;
+    background-color: blueviolet;
+    color: aquamarine;
+}
+
+.dcontainer {
+    .container {
+        border: 2px solid black;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        align-items: center;
+
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+    }
+    h1 {
+        border: 2px solid black;
+    }
+
+    button {
+        margin-right: 4rem;
+
+        padding-right: 1.5rem;
+        padding-left: 1.5rem;
+
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        border: 2px solid black;
+
+        cursor: pointer;
+    }
+}
