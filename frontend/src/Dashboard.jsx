@@ -9,7 +9,7 @@ function Dashboard() {
     const navigate = useNavigate();
 
     const handleLogout = async () => {
-    await axios.post("https://localhost:5000/api/auth/logout", {}, {
+    await axios.post("https://authproject-3pyd.onrender.com/api/auth/logout", {}, {
         withCredentials: true
     });
         navigate("/login", { replace: true });
@@ -19,7 +19,7 @@ function Dashboard() {
         const fetchUser = async () => {
             try {
                 const res = await axios.get(
-                    "https://localhost:5000/api/auth/dashboard",
+                    "https://authproject-3pyd.onrender.com/api/auth/dashboard",
                     { withCredentials: true }
                 );
                 console.log("hello", res);

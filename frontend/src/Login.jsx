@@ -25,7 +25,7 @@ function Login() {
     const handleSubmit = async (e) => {
         e.preventDefault()
         try {
-            const res = await axios.post('https://localhost:5000/api/auth/login', formdata)
+            const res = await axios.post('https://authproject-3pyd.onrender.com/api/auth/login', formdata)
             console.log(res.data)
             navigate("/dashboard");
         } catch (error) {
